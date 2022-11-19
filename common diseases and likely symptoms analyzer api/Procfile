@@ -1,0 +1,1 @@
+web: gunicorn -w 4 -k uvicorn.workers.UvicornWorker common_disease_server:app
