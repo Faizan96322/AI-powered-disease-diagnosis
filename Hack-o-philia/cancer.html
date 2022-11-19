@@ -16,72 +16,30 @@
     <link rel="stylesheet" href="style.css">
     <!-- logo -->
     <link rel="icon" href="cancer.jpeg">
+    <link href="https://fonts.googleapis.com/css?family=Noto+Sans:400,700" rel="stylesheet">
 </head>
 <body>
      <!-- === Header start === -->
-     <header>
-        <a href="index" class="logo"><img src="logo.png" alt="Logo" title="Logo"></a>
-        <div id="menu-bar" class="fas fa-hamburger"></div>
-        <nav class="navbar">
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="https://multi-disease-pred.herokuapp.com/"" target="_blank" rel="noopener noreferrer">Diabetes</a></li>
-                <li><a href="https://multi-disease-pred.herokuapp.com/"" target="_blank" rel="noopener noreferrer">Heart</a></li>
-                <li><a href="liver.html">Liver</a></li>
-                <li><a href="cancer.html">Cancer</a></li>
-                <li><a href="https://multi-disease-pred.herokuapp.com/"" target="_blank" rel="noopener noreferrer">Parkinson</a></li>
-            </ul>
-        </nav>
-    </header>
-    <!-- === Header End === -->
-    <!-- ==== Home Image ==== -->
-   <img class="image2" src="cancer.jpeg" alt="diabetes">
-   <span class="title">Cancer Prediction</span>
+    <div class="container">
+        <div class="box">
+         <div class="animation">
+          <div class="one spin-one"></div>
+          <div class="two spin-two"></div>
+          <div class="three spin-one"></div>
+         </div>
+       <h1>Coming Soon!</h1>
+       <p>Work in progress. Thank you for being patient with us.</p>
+       <p>Back to<a href="main.html" style="font-size: large;">Home</a></p>
+       </div>
+     </div>
 
-   <div class="card">
-    <form action="predict" method="POST">
-        <input class="form-input" type="text" name="radius_mean" placeholder="radius_mean eg: 20.57" required><br>
-        <input class="form-input" type="text" name="texture_mean" placeholder="texture_mean eg: 17.77" required><br>
-        <input class="form-input" type="text" name="perimeter_mean" placeholder="perimeter_mean eg: 132.90" required><br>
-        <input class="form-input" type="text" name="area_mean" placeholder="area_mean eg: 1326.0" required><br>
-        <input class="form-input" type="text" name="smoothness_mean" placeholder="smoothness_mean eg: 0.08474" required><br>
-        <input class="form-input" type="text" name="compactness_mean" placeholder="compactness_mean eg: 0.07864" required><br>
-        <input class="form-input" type="text" name="concavity_mean" placeholder="concavity_mean eg: 0.0869" required><br>
-        <input class="form-input" type="text" name="concave points_mean" placeholder="concave points_mean eg: 0.07017" required><br>
-        <input class="form-input" type="text" name="symmetry_mean" placeholder="symmetry_mean eg: 0.1812" required><br>
-        <input class="form-input" type="text" name="radius_se" placeholder="radius_se eg: 0.05667" required><br>
-        <input class="form-input" type="text" name="perimeter_se" placeholder="perimeter_se eg: 3.398" required><br>
-        <input class="form-input" type="text" name="area_se" placeholder="area_se eg: 74.08" required><br>
-        <input class="form-input" type="text" name="compactness_se" placeholder="compactness_se eg: 0.01308" required><br>
-        <input class="form-input" type="text" name="concavity_se" placeholder="concavity_se eg: 0.01860" required><br>
-        <input class="form-input" type="text" name="concave points_se" placeholder="concave points_se eg: 0.01340" required><br>
-        <input class="form-input" type="text" name="fractal_dimension_se" placeholder="fractal_dimension_se eg: 0.003532" required><br>
-        <input class="form-input" type="text" name="radius_worst" placeholder="radius_worst eg: 24.99" required><br>
-        <input class="form-input" type="text" name="texture_worst" placeholder="texture_worst eg: 23.41" required><br>
-        <input class="form-input" type="text" name="perimeter_worst" placeholder="perimeter_worst eg: 158.80" required><br>
-        <input class="form-input" type="text" name="area_worst" placeholder="area_worst eg: 1956.0" required><br>
-        <input class="form-input" type="text" name="smoothness_worst" placeholder="smoothness_worst eg: 0.1238" required><br>
-        <input class="form-input" type="text" name="compactness_worst" placeholder="compactness_worst eg: 0.1866" required><br>
-        <input class="form-input" type="text" name="concavity_worst" placeholder="concavity_worst eg: 0.2416" required><br>
-        <input class="form-input" type="text" name="concave points_worst" placeholder="concave points_worst eg: 0.1860" required><br>
-        <input class="form-input" type="text" name="symmetry_worst" placeholder="symmetry_worst eg: 0.2750" required><br>
-        <input class="form-input" type="text" name="fractal_dimension_worst" placeholder="fractal_dimension_worst eg: 0.08902" required><br>
-
-
-    <input type="submit" class="my-cta-button" value="predict">
-    </form>
-</div>
 
 
 
 
 
 <!-- ===== Footer ===== -->
-    <div class="footer">
-        <p>Developed by 4Bytes</p>
-    </div>
-    <!-- Jquery Link -->
-    <script src="main.js"></script>
+
 
 </body>
 </html>
