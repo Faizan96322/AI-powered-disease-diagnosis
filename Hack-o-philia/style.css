@@ -509,7 +509,6 @@ p{
     text-align: center;
     transition: all 0.4s;
     font-size: 16px;
-    border-radius: 15px;
 }
 
 .card:hover .links{
@@ -655,5 +654,3 @@ body {
     -webkit-animation: spin-two 2s infinite linear;
     animation: spin-two 2s infinite linear;
   }
-  
-
